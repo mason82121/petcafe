@@ -1,0 +1,325 @@
+
+  <!DOCTYPE html>
+  <html lang="en">
+  
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="images/Icons-Land-3d-Food-Cake-Chocolate.ico" type="image/x-icon">
+    <link rel="icon" href="images/Icons-Land-3d-Food-Cake-Chocolate.ico" type="image/x-icon">
+    <title>PET咖啡屋</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  
+  <body>
+  <header>
+    <!-- social media -->
+    <div class="bg-brown py-1 text-right">
+      <a href="#" class="text-light mr-1">
+        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+      </a>
+      <a href="#" class="text-light mr-4">
+        <i class="fa fa-twitter-square" aria-hidden="true"></i>
+      </a>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">
+        <i class="fa fa-paw text-info" aria-hidden="true"></i>
+        PET咖啡屋
+      </a>
+      <button class="btn btn-outline-primary my-2 mr-1 my-md-0 ml-auto" type="button" data-toggle="modal" data-target="#loginModal">登入</button>
+      <button class="btn btn-primary px-4 my-2 my-md-0" type="button" data-toggle="modal" data-target="#signupModal">註冊</button>
+      <div class="dropdown ">
+        <button class="btn btn-sm btn-cart" data-toggle="dropdown" data-flip="false">
+          <i class="fa fa-shopping-cart text-brown-2 fa-2x" aria-hidden="true"></i>
+          <span class="badge badge-pill badge-danger">12</span>
+        </button>
+        <div class="dropdown-menu dropdown-menu-right
+          " style="min-width:300px">
+          <div class="px-4 py-3">
+            <h6>已選擇商品</h6>
+            <table class="table">
+              <tbody>
+                <tr>
+                  <td class="align-middle text-center">
+                    <a href="#removeModal" data-title="佛羅倫 1杯" data-backdrop="static" data-toggle="modal">
+                      <i class="fa fa-trash-o" aria-hidden="true"></i>
+                    </a>
+                  </td>
+                  <td class="align-middle">佛羅倫</td>
+                  <td class="align-middle">1 杯</td>
+                  <td class="align-middle">$70</td>
+                </tr>
+                <tr>
+  
+                  <td class="align-middle text-center">
+                    <a href="#removeModal" data-title="義大利 1杯" data-backdrop="static" data-toggle="modal">
+                      <i class="fa fa-trash-o" aria-hidden="true"></i>
+                    </a>
+                  </td>
+                  <td class="align-middle">義大利</td>
+                  <td class="align-middle">1 杯</td>
+                  <td class="align-middle">$70</td>
+                </tr>
+              </tbody>
+            </table>
+            <a href="check.html" class="btn btn-primary btn-block">結帳去</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+  <section class="mb-3">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item header-carousel-item bg-cover active" style="background-image:url('images/coffee_1.jpg')">
+          <div class="carousel-caption d-none d-md-block px-3">
+            <h3>文藝復興</h3>
+            <p>開創了早期的文藝復興時代，即從14世紀末期到大約1600年之間，一個具有文化上重大改變與成就的時代。雖然它的起源可以追溯到14世紀早期，義大利文化裡的許多面向大致都是中世紀的，而且文藝復興一直要到這個世紀結束時才整個呈現出來。義大利文「rinascimento」的字面意思是「重生」，而這個時代最為人熟知的是，在被文藝復興人文學者稱為黑暗時代之後，重新對古典文化產生興趣。</p>
+          </div>
+        </div>
+        <div class="carousel-item header-carousel-item bg-cover" style="background-image:url('images/coffee_2.jpg')">
+          <div class="carousel-caption d-none d-md-block px-3">
+            <h3>文藝</h3>
+            <p>義大利文藝復興從義大利北部開始，集中在佛羅倫斯，喬托等人逐漸突破了僵化的中世紀藝術，使得藝術作品更加生動立體。它接著往南傳布，對羅馬的影響尤其大，而羅馬大致上是被文藝復興教宗們重建的。義大利文藝復興在15世紀晚期達到全盛時期，當時外國入侵使整個地區陷入混亂。但是，文藝復興的想法跟理想散布到歐洲其他地方，開啟了北方文藝復興與英格蘭文藝復興等。</p>
+          </div>
+        </div>
+        <div class="carousel-item header-carousel-item bg-cover" style="background-image:url('images/coffee_3.jpg')">
+          <div class="carousel-caption d-none d-md-block px-3">
+            <h3>復興</h3>
+            <p>歐洲普遍經濟繁榮。部份義大利境內的商業與漢撒同盟聯合成為一個共同的歐洲經濟體。北部的城邦在這個時期迅速擴展，勢力漸增，實際上已經脫離神聖羅馬帝國的管轄。在這段期間內，現代商業基礎萌芽，出現共同股票公司（joint stock market）以及國際銀行體制（international
+            banking system），這種體制是有組織地與外地交易，另外也出現了保險及國債</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+  
+  <section>
+    <div class="container my-5">
+      <h2 class="text-center mb-5 text-brown">PET咖啡屋外送 結帳完成</h2>
+      <div class="form-row  mb-4 text-center">
+        <div class="col-12 col-sm">
+          <div class="alert alert-primary alert-rounded" role="alert">完成
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-8 ">
+          <h4 class="text-center  mb-4">購買資訊</h4>
+          <table class="table">
+            <thead>
+              <tr>
+                <th width="100"></th>
+                <th>商品名稱</th>
+                <th width="100">數量</th>
+                <th width="80">小計</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="align-middle">
+                  <img class="img-thumbnail" src="images/1.jpg" alt="">
+                </td>
+                <td class="align-middle">佛羅倫</td>
+                <td class="align-middle">5 杯</td>
+                <td class="align-middle text-right">$350</td>
+              </tr>
+              <tr>
+                <td colspan="3" class="text-right">運費</td>
+                <td class="text-right">
+                  <strong>$30</strong>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3" class="text-right">合計</td>
+                <td class="text-right">
+                  <strong>$380</strong>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <hr>
+          <h4 class="text-center mb-4">個人資料</h4>
+          <table class="table">
+            <tbody>
+              <tr>
+                <th width="200">Email
+                </th>
+                <td class="align-middle">ag3456***@gmail.com</td>
+  
+              </tr>
+              <tr>
+                <th width="200">姓名
+                </th>
+                <td class="align-middle">咬 * 手手</td>
+  
+              </tr>
+              <tr>
+                <th width="200">電話
+                </th>
+                <td class="align-middle">09123456</td>
+  
+              </tr>
+              <tr>
+                <th width="200">地址
+                </th>
+                <td class="align-middle">重慶南路一段122號</td>
+  
+              </tr>
+  
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <footer class="bg-brown-2 text-muted py-5">
+    <div class="container">
+      <ul class="list-inline text-center">
+        <li class="list-inline-item text-white">
+          ©Copyright 2017 六角血拼賣賣
+        </li>
+        <li class="list-inline-item">
+          <a href="#" alt="twitter">
+            <i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="#" alt="facebook">
+            <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="list-inline-item ">
+          <a href="#" class="text-warning">聯絡我們</a>
+        </li>
+  
+      </ul>
+    </div>
+  </footer>
+  
+  <!-- 刪除Modal -->
+  <div class="modal fade" id="removeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-danger text-white">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          是否確認刪除商品
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-brown" data-dismiss="modal">否</button>
+          <button type="button" class="btn btn-outline-danger px-5">是</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- loginModal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header bg-brown text-white">
+            <h5 class="modal-title" id="exampleModalLabel">登入服務</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <form class="needs-validation" novalidate>
+            <div class="modal-body">
+              <div class="form-group">
+                <label for="login-email">Email*</label>
+                <input type="email" class="form-control" id="login-email" placeholder="請輸入帳號Email" required>
+              </div>
+              <div class="form-group">
+                <label for="login-password">密碼*</label>
+                <input type="password" class="form-control" id="login-password" placeholder="請輸入密碼" required>
+              </div>
+              <div class="custom-controls-stacked my-2">
+                <label class="custom-control custom-checkbox">
+                  <input id="checkStacked" name="check-stacked" type="checkbox" class="custom-control-input">
+                  <span class="custom-control-indicator"></span>
+                  <span class="custom-control-description">記住帳號</span>
+                </label>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-link" data-dismiss="modal" data-toggle="modal" data-target="#signupModal">還沒有帳號?</button>
+              <button type="button" class="btn btn-brown ml-auto" data-dismiss="modal">取消</button>
+              <button type="submit" class="btn btn-primary">登入</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- signupModal -->
+    <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header bg-warning text-white">
+            <h5 class="modal-title" id="exampleModalLabel">註冊服務</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <form class="needs-validation" novalidate>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <h3 class="text-brown">PET咖啡屋</h3>
+                  <p>兩出紀演民等狀長節行性你們使品何開長次參，車子再的，臺安了因。提線開轉是飯會，有職為不球親裡亮最國唱；體來長市！動良顧利起下，方便又為無就一子管意東雲全於灣也觀是會重我日、生有氣朋運度能功確！趣氣年！總題職病金育持在建及夠死告，媽竟議這？來稱石？明自人行地得條提會應作的裡，電文民後夫放，戰經子型創門車人的放同個遊。</p>
+                  <p>手生就計員這子內果要事年，電的千石個器到聯和校驗何同院商發成法們有辦委媽時木也。愛清定成什寫完如著費力人大易紅現長。藥的作、建興方器知自防、十死慢屋是媽，食父須、腦所年靈當沒得黨真戰樂小聲座；國時須著清一味去結新研的是由好的共求常水獲打。條他教條方！</p>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="signup-email">Email*</label>
+                    <input type="email" class="form-control" id="signup-email" placeholder="請輸入帳號Email" required>
+                    <small class="text-brown">我們絕不會隨意將您的email提供給第三者</small>
+                  </div>
+                  <div class="form-group">
+                    <label for="signup-password">密碼*</label>
+                    <input type="password" class="form-control" id="signup-password" placeholder="請輸入密碼" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="confirm-password">確認密碼*</label>
+                    <input type="password" class="form-control" id="confirm-password" placeholder="請再次輸入密碼" required>
+                  </div>
+                  <div class="custom-controls-stacked my-2">
+                    <label class="custom-control custom-checkbox">
+                      <input id="agreeStacked" name="agree-stacked" type="checkbox" class="custom-control-input">
+                      <span class="custom-control-indicator"></span>
+                      <span class="custom-control-description">同意條款</span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+      <!--script-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+      <script src="script.js"></script>
+  </body>
+  </html>
+  

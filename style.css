@@ -1,0 +1,159 @@
+body{
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+a:hover{ 
+  text-decoration:none;
+}
+h1,h2,h3,h4,h5{
+  font-weight:bold;
+}
+.btn-cart{
+  background-color:transparent;
+  position:relative;
+}
+
+.btn-cart .badge{
+  position:absolute;
+  top:-1px;
+  right:-1px;
+}
+.dropdown-menu-right{
+  right:0;
+  left:auto;
+}
+.jumbotron-bg{
+  background: url(https://images.unsplash.com/photo-1477901492169-d59e6428fc90?w=1350);
+  background-size:cover;
+  background-position:center center;
+  min-height:400px;
+}
+.bg-lighter{
+  background-color:rgba(255,255,255,.55);
+}
+.box-shadow{
+  box-shadow:0 3px 5px rgba(0,0,0,.16);
+}
+
+.box-shadow:hover{
+  box-shadow:0 4px 10px rgba(0,0,0,.45);
+  transition:box-shadow .3s;
+}
+
+    hr {
+      box-sizing: content-box;
+      height: 0;
+      overflow: visible;
+    }
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.btn.disabled{
+  pointer-events:none;
+}
+
+.alert-rounded{
+  border-radius:50px;
+}
+
+
+.header-carousel-item {
+  height: 450px;
+}
+.bg-cover {
+  background-size: cover;
+  background-position: center;
+}
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+
+.btn-primary{
+  background-color:#4D3900;
+  border-color: #4D3900;
+}
+
+.btn-link, .btn-link:focus, .btn-link:hover{
+  color: #fff;
+}
+.btn-primary.focus, .btn-primary:focus{
+  background-color:#4D3900;
+  border-color: #4D3900;
+  box-shadow:0 0 0 3px #4D3900;
+}
+.btn-primary.hover, .btn-primary:hover{
+  background-color:#4D3900;
+}
+
+.btn-primary.link, .btn-primary:link{
+  border-color: #4D3900;
+}
+
+
+/**outline**/
+
+.btn-outline-primary{
+  color:#4D3900;
+  border-color: #4D3900;
+}
+.btn-outline-primary.focus, .btn-outline-primary:focus{
+  background-color:#fff;
+  border-color: #4D3900;
+  box-shadow:0 0 0 3px #4D3900;
+  color:#4D3900;
+}
+.btn-outline-primary.hover, .btn-outline-primary:hover{
+  background-color:#fff;
+  color:#4D3900;
+}
+
+
+.bg-secondary{
+  background-color: #F4A460; 
+}
+
+.bg-brown{
+  background-color: #8B4513; 
+}
+
+.bg-brown-2{
+background-color: #4D1F00; 
+}
+
+/**btn-group**/
+.btn-group .btn-group-sm{
+  color: #4D3900;
+}
+
+.list-group-item-action.active{
+  background-color: #4D3900;
+}
+
+a{
+  color:#4D3900;
+}
+
+.page-link{
+  color:#4D3900;
+  border: 1px solid #F4A460;
+}
+
+.page-link.active{
+  background-color: #F4A460;
+}
+
+.text-brown{
+  color: #4D3900;
+}
+
+.alert-primary{
+    color: #4D3900;
+    background-color: #00FA9A;
+    border-color: #00FA9A;
+}
